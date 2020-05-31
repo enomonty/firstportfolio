@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  background-color: rgb(170, 170, 170);
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 60px;
+  background-color: gray;
+}
+
+.header-logo {
+ font-size: 40px; 
+ font-weight: bold;
+ float: left;
+ padding: 0 20px;
+}
+
+.header-list ul{
+  text-align: right;
+  margin-top: 0;
+}
+
+.header-list li {
+  font-size: 20px;
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+
+.heading {
+  margin: 0;
+  padding: 10px 0 20px 10px;
+  text-align: center;
+}
+
+.profil { 
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: pink; */
+  display: flex;
+}
+
+.icon {
+  /* background-color: yellow; */
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.info {
+  /* background-color: tomato; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info h2  {
+  margin: 0;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+.info p {
+  margin: 0;
+  text-align: center;
+}
+
+.info ul {
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+.info li {
+  
+}
+
+.middle-wrapper {
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+.work {
+  width: 1050px;
+  background-color: rgb(170, 170, 170);
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,td,th {
+  border: 2px solid black;
+  padding: 9px;
+}
+
+table th {
+  background-color: gray;
+}
+
+.bottom-wrapper {
+  margin-bottom: 100px;
+}
+
+
+.hobby { 
+  display: flex;
+  width: 1200px;
+  margin:  0 auto;
+}
+
+.hobby-icon {
+  width: 100%;
+  text-align: center; 
+}
+
+
+.hobby img {
+  height: 310px;
+  width: 350px;
+  border-radius: 10%;
+  border-style: inset;
+  border-color: black;
+  border-width: 1px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 15px;
+}
+
+footer P {
+  font-size: 10px;
+}
+
